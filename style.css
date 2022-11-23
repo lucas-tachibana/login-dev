@@ -30,6 +30,7 @@ body * {
 .left-login > h1 {
     font-size: 3vw;
     color: #77ffc0;
+    text-align: center;
 }
 
 .left-login-image {
@@ -114,6 +115,7 @@ body * {
     .card-login {
         width: 85%;
     }
+    
 }
 
 @media only screen and (max-width: 600px) {
