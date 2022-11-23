@@ -118,7 +118,7 @@ body * {
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 650px) {
     .main-login {
         flex-direction: column;
     }
@@ -130,6 +130,7 @@ body * {
     .left-login {
         width: 100%;
         height: auto;
+        margin-bottom: 3vh;
     }
     
     .left-login > h1 {
@@ -145,6 +146,14 @@ body * {
         height: auto;
     }
 
-    
-    
+}
+
+@media only screen and (max-height: 650px) {
+    .left-login {
+        display: none;
+    }
+
+    .card-login {
+        padding: 2% 5%;
+    }
 }
